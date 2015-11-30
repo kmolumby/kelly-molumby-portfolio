@@ -1,28 +1,26 @@
-/* temporary designs */
+/* temporary designs 
 
-body {
-    background-color: LightGray;
-}
+
 div {
     border: 1px solid Chocolate;
 }
-
+*/
 
 /* fonts */
 
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Gudea', sans-serif;
 }
 
 h1, h2, h3 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Old Standard TT', serif;
 }
 
 
 /* navigation section */
 
 .top-navigation {
-	background-color: #e5e5e5;
+	background-color: #f4f4f4;
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
@@ -38,7 +36,7 @@ h1, h2, h3 {
 	float: right;
 	margin-top: 2rem;
 	font-size: 1.25rem;
-	color: #333333;
+	color: #0d0d0d;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
 	padding: 0 3rem;
@@ -51,19 +49,118 @@ h1, h2, h3 {
 	}
 
 .top-navigation .links .active {
-	color: #000;
-	font-weight: 700;
+	color: #5b5b5b;
+	font-weight: 600;
 	font-style: bold;
 }
 
 .top-navigation .links li:hover {
 	cursor: pointer;
-	color: #555;
+	color: #5b5b5b;
 }
 
 
 /*introduction section*/
 
 .introduction {
-	background-image: url('../images/hands.jpg');
+	background-image: url('../images/dunes1.jpg');
+	
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	display: block;
+	font-weight: 300;
+	overflow: auto;
 }
+
+.content {
+	text-align: center;
+	width: 970px;
+	margin: 0 auto;
+	padding: 0px 15px;
+	color: #f4f4f4;
+
+}
+
+.introduction h1 {
+ 	margin-top: 24.5rem;
+    font-size: 5.125rem;
+    margin-bottom: 0;
+}
+
+.introduction h3 {
+	font-size: 2.5rem;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+/* About Me Section */
+
+.about {
+
+	margin-top: 0rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	background-color: #282828;
+
+}
+
+.about > .content {
+	
+	padding-left: 3rem;
+	padding-right: 3rem;
+	font-size: 1.25rem;
+	max-width: 480px;
+	font-weight: 200;
+
+}
+
+.about .content h2 {
+	font-size: 3rem;
+	margin-top: 0;
+}
+
+.about .content li {
+	display: inline-block;
+	
+}
+
+.hands {
+
+	padding: 2rem;
+	margin-top: 4rem;
+	margin-right: 2rem;
+	margin-left: -8.5rem;
+
+}
+
+
+
+/* Work Section */
+
+.work {
+	margin-top: 0rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	background-color: #8e8e8e;
+}
+
+.work > li {
+	width: 33.33333333333%;
+	float: left;
+	display: inline-block;
+	height: 4em;
+	margin: 1rem 2rem;
+	list-style: none;
+
+}
+
+.work h2 {
+	font-size: 3rem;
+}
+
